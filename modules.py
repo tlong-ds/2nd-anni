@@ -19,7 +19,7 @@ class Heart:
     @classmethod
     def print_heart(self):
 
-        with open("/Users/bunnypro/Library/Mobile Documents/com~apple~CloudDocs/Long's Workspace/PROJECT/2nd anni/Animation - 1742833383797.json", "r") as f:
+        with open("Animation - 1742833383797.json", "r") as f:
             heart = json.load(f)
         
         st.lottie(heart)
